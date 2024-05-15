@@ -1,6 +1,6 @@
 import { getGreeting } from '../support/app.po';
 
-describe('angular-monorepo-e2e', () => {
+describe('test-angular-e2e', () => {
   beforeEach(() => cy.visit('/'));
 
   it('should display welcome message', () => {
